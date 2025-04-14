@@ -1,0 +1,78 @@
+body {
+  font-family: "fira Sans", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(255, 189, 189) 0%,
+    rgb(255, 216, 168) 62%,
+    rgb(255, 248, 168) 100.7%
+  );
+}
+
+header {
+  text-align: center;
+  padding: 10px;
+  color: #810a4e;
+}
+
+.theme-button {
+  background: #b70569;
+  color: #f5dbe9;
+  font-size: 16px;
+  font-family: "Cerebri Sans";
+  font-weight: bold;
+  border-radius: 50px;
+  border: none;
+  padding: 15px 20px;
+  transition: all 150ms ease-in-out;
+  display: block;
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+.theme-button:hover {
+  background: hsl(328, 100%, 83%);
+  color: #810a4e;
+}
+
+.container {
+  box-shadow: 0px 30px 50px #ad4d8481;
+  margin: 50px auto;
+  max-width: 600px;
+  padding: 40px;
+  border-radius: 16px;
+}
+
+.definition {
+  background: #f9eaf3;
+  margin: 10px auto;
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 800px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  color: #810a4e;
+}
+
+.definition h2 {
+  text-align: center;
+}
+.definition p {
+  font-size: 16px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+transform: scale(1.5);
+transition: all 150ms ease-in-out;
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+}
+
+.grid img {
+  max-width: 100%;
+  border-radius: 12px;
+}
