@@ -48,8 +48,21 @@ header {
   border-radius: 16px;
 }
 
+.intro-photo {
+  margin: 15px 0;
+  background-origin: 10px 10px;
+  transition: all 150ms ease-in-out;
+  border-radius: 12px;
+  max-width: 100%;
+}
+
+.intro-photo:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
 .definition {
-  background: #f9eaf3;
+  background: #d6b199;
   margin: 10px auto;
   padding: 2rem;
   border-radius: 12px;
