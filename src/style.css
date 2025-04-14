@@ -17,8 +17,12 @@ header {
 }
 
 .theme-button {
-  background: #b70569;
-  color: #f5dbe9;
+  background: linear-gradient(
+    110.1deg,
+    rgb(241, 115, 30) 18.9%,
+    rgb(231, 29, 54) 90.7%
+  );
+  color: rgb(255, 236, 223);
   font-size: 16px;
   font-family: "Cerebri Sans";
   font-weight: bold;
@@ -32,7 +36,7 @@ header {
 }
 
 .theme-button:hover {
-  background: hsl(328, 100%, 83%);
+  background: hsl(0, 96%, 78%);
   color: #810a4e;
 }
 
@@ -63,9 +67,6 @@ header {
   text-align: justify;
 }
 
-transform: scale(1.5);
-transition: all 150ms ease-in-out;
-
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -75,4 +76,24 @@ transition: all 150ms ease-in-out;
 .grid img {
   max-width: 100%;
   border-radius: 12px;
+}
+
+.other-button {
+  background: hsla(0, 88%, 22%, 0.842);
+  color: white;
+  display: block;
+  margin: 30px auto;
+  width: 50%;
+  border-radius: 40px;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 15px 20px;
+  transition: all 150ms ease-in-out;
+  border: 1px solid transparent;
+}
+.other-button:hover {
+  cursor: pointer;
+  background: hsla(0, 79%, 96%, 0.842);
+  color: hsla(0, 88%, 22%, 0.842);
 }
