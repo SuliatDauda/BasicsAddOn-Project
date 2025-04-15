@@ -21,11 +21,7 @@ a {
 }
 
 .theme-button {
-  background: linear-gradient(
-    110.1deg,
-    rgb(241, 115, 30) 18.9%,
-    rgb(231, 29, 54) 90.7%
-  );
+  background: #810a4e;
   color: rgb(255, 236, 223);
   font-size: 16px;
   font-family: "Cerebri Sans";
@@ -138,9 +134,14 @@ a {
   color: #810a4e;
 }
 
-.dark .other-button {
+.dark .theme-button {
   background: hsla(0, 79%, 96%, 0.842);
   color: hsla(0, 88%, 22%, 0.842);
+}
+
+.dark .theme-button:hover {
+  background: #810a4e;
+  color: rgb(255, 236, 223);
 }
 
 .dark a {
