@@ -89,6 +89,12 @@ a {
 .grid img {
   max-width: 100%;
   border-radius: 12px;
+  transition: all 150ms ease-in-out;
+}
+
+.grid img:hover {
+  cursor: pointer;
+  transform: scale(1.5);
 }
 
 .other-button {
