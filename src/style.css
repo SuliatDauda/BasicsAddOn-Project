@@ -8,12 +8,16 @@ body {
     rgb(255, 216, 168) 62%,
     rgb(255, 248, 168) 100.7%
   );
+  color: #810a4e;
 }
 
 header {
   text-align: center;
   padding: 10px;
-  color: #810a4e;
+}
+
+a {
+  color: black;
 }
 
 .theme-button {
@@ -62,28 +66,28 @@ header {
 }
 
 .definition {
-  background: #d6b199;
+  background: #f7d3ab;
   margin: 10px auto;
   padding: 2rem;
   border-radius: 12px;
   max-width: 800px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-  color: #810a4e;
 }
 
 .definition h2 {
   text-align: center;
 }
 .definition p {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 30px;
   text-align: justify;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 15px;
+  margin-top: 30px;
 }
 
 .grid img {
@@ -109,4 +113,36 @@ header {
   cursor: pointer;
   background: hsla(0, 79%, 96%, 0.842);
   color: hsla(0, 88%, 22%, 0.842);
+}
+
+.goodFood {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.links {
+  text-align: center;
+}
+
+.dark {
+  background: #47052b;
+  color: white;
+}
+
+.dark .definition {
+  background: #47052b;
+}
+
+.dark .theme-button {
+  background: hsl(0, 96%, 78%);
+  color: #810a4e;
+}
+
+.dark .other-button {
+  background: hsla(0, 79%, 96%, 0.842);
+  color: hsla(0, 88%, 22%, 0.842);
+}
+
+.dark a {
+  color: #ffffff;
 }
